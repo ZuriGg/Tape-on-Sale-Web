@@ -1,0 +1,328 @@
+@font-face {
+    font-family: 'IndieFlower';
+    src: url(./fonts/IndieFlower-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+iframe {
+    display: block;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/Tape\ on\ Sale.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+body::-webkit-scrollbar {
+    width: 0.8vw; /* Tamaño de la barra de desplazamiento */
+    }
+
+body::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.223); /* color de fondo de la barra */
+    }
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 178, 80); /* color de la barra */
+    border-radius: 70px; /* Cantidad de redondeado de la barra */
+    border: 2px solid rgb(0, 0, 0); /* Borde de la barra y el color de este */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 300px;
+    width: 99%;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px rgba(0, 0, 0, 0.168) solid;
+    border-radius: 1vw;
+    margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+    
+}
+
+header > a {
+    background-color: black;
+    color: white;
+    padding: 0.4vw;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 0.4vw;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+header > a:hover {
+    transform: scale(1.2);
+}
+
+header > a:active {
+    transform: scale(1.5);
+}
+
+header > h1 {
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    font-family: IndieFlower;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.421);
+    padding: 0.3vw 2vw 0.3vw 2vw;
+    border-radius: 0.5vw;
+}
+
+header > img {
+    /* width: 25%; */
+        /* top: 5%;
+    left: 40%;
+    margin-top: 1%;
+    position: absolute; */
+    padding: 0.4vw;
+    position: absolute;
+    bottom: -18%;
+    left: 50%;
+
+
+    transform: translateX(-50%);
+}
+
+header > nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header > nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+header > nav > ul > li {
+    background-color: rgb(0, 0, 0);
+    margin: 2px;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+header > nav > ul > li > a {
+    color: white;
+    padding: 1px;
+    text-decoration: none;
+}
+
+header > section {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+header > section > a > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 0.6vw;
+}
+
+#sectionVideo > h3 {
+    background-color: rgba(0, 153, 59, 0.886);
+    padding: 0.3vw;
+    border-radius: 0.5vw;
+    text-align: center;
+    font-size: 2vw;
+    font-family: IndieFlower;
+    position: relative;
+    width: 20vw;
+    height: 3vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#lorena {
+    border: solid 5px rgb(220, 20, 60);
+
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    width: 400px;
+    height: 200px;
+    overflow: auto;
+    overflow-wrap: break-word;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: IndieFlower;
+    font-weight: 1000;
+    margin-bottom: 6vw;
+}
+
+#lorena::-webkit-scrollbar {
+    width: 0.8vw; /* Tamaño de la barra de desplazamiento */
+    }
+
+#lorena::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.223); /* color de fondo de la barra */
+    }
+
+#lorena::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 178, 80); /* color de la barra */
+    border-radius: 70px; /* Cantidad de redondeado de la barra */
+    border: 2px solid rgb(0, 0, 0); /* Borde de la barra y el color de este */
+}
+
+#sectionPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.773);
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    margin: 20px 0;
+}
+
+#sectionPrincipal > h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+#sectionPrincipal > p {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 1vw;
+    font: bold;
+}
+
+#sectionPrincipal > p:last-child {
+    margin-bottom: 0;
+}
+
+#sectionPrincipal > .miembro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.miembros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.miembro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(33.33% - 20px);
+    max-width: 200px;
+    margin: 0 10px;
+}
+
+.miembro > a {
+    text-decoration: none;
+}
+
+.miembro img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.miembro:hover img{
+    transform: scale(1.1);
+}
+
+.miembro:active {
+    transform: scale(1.2);
+}
+
+.miembro h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 0;
+
+}
+
+#tituloMiembros{
+    font-size: 1.5vw;
+    padding: 0.2vw;
+}
+
+#textoMiembros{
+    margin-top: 1vw;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 30px 5px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.925);
+    position: fixed;
+    bottom: 0;
+    
+}
+
+footer > p {
+    color: white;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > section > a > img {
+    display: inline-block;
+    width: 2%;
+    padding: 3px;
+    border-radius: 0.8vw;
+}
+
+
+.imagenRedes img {
+    transition: transform 0.3s ease;
+}
+
+.imagenRedes:hover img {
+    transform: scale(1.4);
+}
+
+.imagenRedes:active img{
+    transform: scale(2);
+}
+
+#listenTape {
+    padding-bottom: 7vw;
+}
