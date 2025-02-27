@@ -1,3 +1,1 @@
-# Tape-on-Sale-Web
-
-## La mejor web de musica
+# Página web de Tape on Sale
