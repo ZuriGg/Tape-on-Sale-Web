@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./routes/Home/Home";
+import About from "./routes/About/About";
 
 function App() {
     const location = useLocation();
@@ -32,6 +33,7 @@ function App() {
             <main>
                 <Routes>
                     <Route index path="/" element={<Home />} />
+                    <Route index path="about" element={<About />} />
 
                     <Route path="*" element={<Navigate to="/" replace />} />
                 </Routes>

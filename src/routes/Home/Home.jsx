@@ -8,8 +8,6 @@ function Home() {
                 <h1>Tape on Sale</h1>
 
                 <h2>No vendemos cintas</h2>
-
-                <img src="/assets/img/LogoLargo.png" alt="" />
             </div>
         </>
     );
