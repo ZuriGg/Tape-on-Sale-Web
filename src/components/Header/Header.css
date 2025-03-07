@@ -46,12 +46,16 @@ header a.active {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #000000b5;
+    background-color: #000000c9;
     z-index: 1;
     top: 100%;
-    padding-top: 1vh;
-    justify-content: flex-start;
-    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1vh;
+    text-align: center;
+    min-width: max-content;
+    white-space: nowrap;
+    border-radius: 1vh;
 }
 
 .dropdown-content a {

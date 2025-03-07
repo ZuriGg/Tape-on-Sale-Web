@@ -62,7 +62,7 @@ function Header() {
             >
                 <span>Más</span>
                 {showMore && (
-                    <div className="dropdown-content">
+                    <div className="dropdown-content mas">
                         <NavLink to={"/contacto"} activeClassName="active">
                             Contacto
                         </NavLink>
