@@ -1,7 +1,7 @@
 .aboutContainer {
     width: 100%;
     height: 100%;
-    margin-top: 12vh;
+    margin-top: 15vh;
 }
 
 .aboutContainer::before {
@@ -14,7 +14,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/assets/videos/gifFondo.gif");
+    background-image: url("/assets/img/tapePhoto.webp");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.3;
@@ -29,6 +29,7 @@
     font-weight: 700;
     width: 100%;
     height: fit-content;
+    margin-bottom: 5vh;
 }
 
 .aboutContainer h3 {
@@ -40,6 +41,8 @@
     font-weight: 700;
     width: 100%;
     height: fit-content;
+    margin-bottom: 3vh;
+    margin-top: 1vh;
 }
 
 .aboutContainer p {

@@ -5,6 +5,23 @@ function About() {
     return (
         <>
             <div className="aboutContainer">
+                <div
+                    style={{
+                        position: "fixed",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        height: "100%",
+                        backgroundImage: 'url("/assets/img/tapePhoto.webp")',
+                        backgroundSize: "cover",
+                        backgroundRepeat: "no-repeat",
+                        opacity: 0.1,
+                        zIndex: -1,
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                    }}
+                ></div>
                 <h1>Quienes somos</h1>
 
                 <div id="textoAbout">
