@@ -52,8 +52,8 @@ function VideoCardRedux({ videoId }) {
                     <div
                         style={{
                             position: "absolute",
-                            width: "70px",
-                            height: "50px",
+                            width: "50px",
+                            height: "35px",
                             background: "rgba(255, 0, 0, 0.7)",
                             borderRadius: "10px",
                             display: "flex",
@@ -65,8 +65,8 @@ function VideoCardRedux({ videoId }) {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="white"
-                            width="40px"
-                            height="40px"
+                            width="28px"
+                            height="28px"
                         >
                             <path d="M8 5v14l11-7z" />
                         </svg>
