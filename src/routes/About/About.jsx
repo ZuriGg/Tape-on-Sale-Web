@@ -15,7 +15,7 @@ function About() {
                         backgroundImage: 'url("/assets/img/tapePhoto.webp")',
                         backgroundSize: "cover",
                         backgroundRepeat: "no-repeat",
-                        opacity: 0.1,
+                        opacity: 0.3,
                         zIndex: -1,
                         display: "flex",
                         justifyContent: "center",
