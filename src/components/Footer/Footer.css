@@ -22,11 +22,16 @@ footer .categoria {
     margin-right: 1vh;
 }
 
+footer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1vh;
+}
+
 .iconoFooter {
     aspect-ratio: 1/1;
     width: 2%;
-    margin-inline: 0.3vh;
-    border-radius: 1vh;
+    margin-inline: 0.5vh;
     transition: all 0.4s;
 }
 
