@@ -1,0 +1,83 @@
+.videosContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 12vh;
+    display: flex;
+}
+
+.videosContainer h3 {
+    font-size: 6vh;
+    justify-self: center;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+}
+
+.videosContainer h4 {
+    font-size: 4vh;
+    margin-bottom: 3vh;
+}
+
+#seccionVideos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 33vw;
+    padding-left: 5vh;
+    height: 100%;
+}
+
+#seccionShorts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 33vw;
+    height: 100%;
+    padding-right: 5vh;
+}
+
+#seccionMusica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 33vw;
+    padding-left: 5vh;
+    height: 100%;
+}
+
+#articlesVideos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 3vh;
+}
+
+#articlesShorts {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 4vw;
+    gap: 3vh;
+    align-items: flex-start;
+}
+
+#articlesMusica {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3vh;
+}
