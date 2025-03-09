@@ -54,27 +54,6 @@ function Header() {
                     </div>
                 )}
             </div>
-
-            <div
-                className="dropdown"
-                onMouseEnter={() => setShowMore(true)}
-                onMouseLeave={() => setShowMore(false)}
-            >
-                <span>Más</span>
-                {showMore && (
-                    <div className="dropdown-content mas">
-                        <NavLink to={"/contacto"} activeClassName="active">
-                            Contacto
-                        </NavLink>
-                        <NavLink to={"/social-media"} activeClassName="active">
-                            Social Media
-                        </NavLink>
-                        <NavLink to={"/FAQ"} activeClassName="active">
-                            FAQ
-                        </NavLink>
-                    </div>
-                )}
-            </div>
         </header>
     );
 }

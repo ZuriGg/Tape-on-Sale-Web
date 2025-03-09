@@ -2,12 +2,67 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Tape on Sale</title>
+
+        <title>Tape on Sale - Banda de música</title>
+
+        <meta
+            name="description"
+            content="Somos una banda de música propia compuesta por: Jesús a la voz y el bajo, Carlos a la guitarra, Zuri a la batería. Con muchos años por delante para expresarnos y seguir trayendo buena música a las calles."
+        />
+
+        <!-- Open Graph (Facebook, WhatsApp, etc.) -->
+        <meta
+            property="og:title"
+            content="No hacemos indie, hacemos rock, rock alternativo, grunge, funky, pop y más estilos"
+        />
+        <meta
+            property="og:description"
+            content="Somos una banda de música propia compuesta por: Jesús a la voz y el bajo, Carlos a la guitarra, Zuri a la batería. Con muchos años por delante para expresarnos y seguir trayendo buena música a las calles."
+        />
+        <meta property="og:image" content="/assets/img/tapeonsale-cover.webp" />
+        <meta property="og:url" content="https://tapeonsale.com" />
+        <meta property="og:type" content="website" />
+
+        <!-- Twitter Cards -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:title"
+            content="No hacemos indie, hacemos rock, rock alternativo, grunge, funky, pop y más estilos"
+        />
+        <meta
+            name="twitter:description"
+            content="Somos una banda de música propia con años por delante para expresarnos y seguir trayendo buena música a las calles."
+        />
+        <meta
+            name="twitter:image"
+            content="/assets/img/tapeonsale-cover.webp"
+        />
+
+        <!-- Favicon -->
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="/assets/img/tapeonsale-icon.ico"
+        />
+
+        <!-- Pre-cargar imágenes importantes -->
+        <link
+            rel="preload"
+            href="/assets/img/tapeonsale-cover.webp"
+            as="image"
+            type="image/webp"
+        />
+
+        <!-- Estilos -->
+        <link rel="stylesheet" href="./src/index.css" />
+
+        <meta name="robots" content="index, follow" />
     </head>
     <body>
-        <div id="root"></div>
+        <div id="root" role="main"></div>
+
         <script type="module" src="/src/main.jsx"></script>
     </body>
 </html>

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header/Header";
@@ -8,6 +8,8 @@ import About from "./routes/About/About";
 import Musica from "./routes/Musica/Musica";
 import Videos from "./routes/Videos/Videos";
 import Fotos from "./routes/Fotos/Fotos";
+import Eventos from "./routes/Eventos/Eventos";
+import Merch from "./routes/Merch/Merch";
 
 function App() {
     const location = useLocation();
@@ -27,12 +29,6 @@ function App() {
             document.title = "Tape on Sale - Eventos";
         } else if (location.pathname === "/merchandising") {
             document.title = "Tape on Sale - Merchandising";
-        } else if (location.pathname === "/contacto") {
-            document.title = "Tape on Sale - Contacto";
-        } else if (location.pathname === "/social-media") {
-            document.title = "Tape on Sale - Social Media";
-        } else if (location.pathname === "/faq") {
-            document.title = "Tape on Sale - FAQ";
         } else {
             document.title = "Tape on Sale";
         }
@@ -51,12 +47,8 @@ function App() {
                     <Route index path="videos" element={<Videos />} />
                     <Route index path="fotos" element={<Fotos />} />
 
-                    <Route index path="eventos" element={<Videos />} />
-                    <Route index path="merchandising" element={<Videos />} />
-
-                    <Route index path="contacto" element={<Videos />} />
-                    <Route index path="social-media" element={<Videos />} />
-                    <Route index path="faq" element={<Videos />} />
+                    <Route index path="eventos" element={<Eventos />} />
+                    <Route index path="merchandising" element={<Merch />} />
 
                     <Route path="*" element={<Navigate to="/" replace />} />
                 </Routes>
