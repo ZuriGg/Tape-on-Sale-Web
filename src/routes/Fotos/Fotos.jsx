@@ -1,7 +1,6 @@
 import React from "react";
 import "./Fotos.css";
 import ImgCard from "../../components/ImgCard/ImgCard";
-import VideoInstagramCard from "../../components/ImgCard/videoInstagramCard";
 
 function Fotos() {
     return (
