@@ -74,16 +74,17 @@ function VideoCard({ videoId }) {
                     <div
                         style={{
                             position: "absolute",
-                            top: "20px",
+                            top: "15px",
                             left: "10px",
                             right: "10px",
-                            background: "rgba(0, 0, 0, 0.76)",
+                            textShadow:
+                                "-1.2px -1.2px 0 black, 1.2px -1.2px 0 black, -1.2px  1.2px 0 black, 1.2px  1.2px 0 black",
                             color: "#fff",
                             padding: "0.5vh",
                             margin: "auto",
                             width: "fit-content",
                             borderRadius: "0.5vh",
-                            fontSize: "2vh",
+                            fontSize: "2.2vh",
                             textAlign: "center",
                         }}
                     >

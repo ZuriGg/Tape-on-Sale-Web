@@ -3,6 +3,7 @@ import "./Videos.css";
 import VideoCard from "../../components/VideoCard/VideoCard";
 import ShortCard from "../../components/ShortCard/ShortCard";
 import VideoCardRedux from "../../components/VideoCard/VideoCardRedux";
+import VideoInstagramCard from "../../components/ImgCard/videoInstagramCard";
 
 function Videos() {
     return (

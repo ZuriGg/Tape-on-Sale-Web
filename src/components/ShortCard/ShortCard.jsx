@@ -77,13 +77,14 @@ function ShortCard({ videoId }) {
                             top: "5px",
                             left: "10px",
                             right: "10px",
-                            background: "rgba(0, 0, 0, 0.76)",
+                            textShadow:
+                                "-1.3px -1.3px 0 black, 1.3px -1.3px 0 black, -1.3px  1.3px 0 black, 1.3px  1.3px 0 black",
                             color: "#fff",
                             padding: "0.5vh",
                             margin: "auto",
                             width: "fit-content",
                             borderRadius: "0.5vh",
-                            fontSize: "1.5vh",
+                            fontSize: "1.8vh",
                             textAlign: "center",
                         }}
                     >

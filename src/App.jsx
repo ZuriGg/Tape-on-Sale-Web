@@ -7,6 +7,7 @@ import Home from "./routes/Home/Home";
 import About from "./routes/About/About";
 import Musica from "./routes/Musica/Musica";
 import Videos from "./routes/Videos/Videos";
+import Fotos from "./routes/Fotos/Fotos";
 
 function App() {
     const location = useLocation();
@@ -48,7 +49,7 @@ function App() {
 
                     <Route index path="musica" element={<Musica />} />
                     <Route index path="videos" element={<Videos />} />
-                    <Route index path="fotos" element={<Videos />} />
+                    <Route index path="fotos" element={<Fotos />} />
 
                     <Route index path="eventos" element={<Videos />} />
                     <Route index path="merchandising" element={<Videos />} />
